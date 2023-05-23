@@ -1,16 +1,18 @@
 ---
 manufacturer: Intel
-model: NUC11TNBi5
-slug: intel-nuc11tnbi5
+model: NUC11TNHi5
+slug: intel-nuc11tnhi5
 u_height: 0
 is_full_depth: false
 airflow: passive
 weight: 0.64
 weight_unit: kg
-comments: '[NUC11TNBi5 Data Sheet on intel.com](https://ark.intel.com/content/www/us/en/ark/products/205594/intel-nuc-11-pro-kit-nuc11tnhi5.html)'
+comments: '[NUC11TNHi5 Data Sheet on intel.com](https://ark.intel.com/content/www/us/en/ark/products/205594/intel-nuc-11-pro-kit-nuc11tnhi5.html)'
 interfaces:
   - name: eth0
     type: 2.5gbase-t
+  - name: wlan0
+    type: ieee802.11ax
 power-ports:
   - name: PSU1
     type: dc-terminal
