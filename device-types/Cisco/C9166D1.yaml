@@ -1,0 +1,17 @@
+---
+manufacturer: Cisco
+model: Catalyst 9166D
+slug: cisco-c9166d
+part_number: CW9166D1
+comments: '[Cisco Catalyst 9166 Series Access Points Data Sheet](https://www.cisco.com/c/en/us/products/collateral/wireless/catalyst-9166-series-access-points/catalyst-9166-series-access-points-ds.html)'
+u_height: 0
+is_full_depth: false
+interfaces:
+  - name: WiFi
+    type: ieee802.11ax
+  - name: GigabitEthernet0
+    type: 2.5gbase-t
+    poe_mode: pd
+console-ports:
+  - name: console
+    type: rj-45
